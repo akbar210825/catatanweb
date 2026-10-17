@@ -1,0 +1,14 @@
+:root{--ink:#10243a;--paper:#f6f8fb;--accent:#ffd23f;--teal:#0e8f8a}
+body{font-family:'Bricolage Grotesque',system-ui,sans-serif;background:var(--paper);color:#1d2b3a}
+.bg-ink{background:var(--ink)}
+.navbar-brand .mark{background:var(--accent);color:var(--ink);padding:0 .35rem;border-radius:.25rem;margin-right:.25rem}
+.hero{background:var(--ink);color:#fff}
+.hl{background:linear-gradient(transparent 55%,var(--teal) 55%)}
+.btn-accent{background:var(--accent);color:var(--ink);font-weight:600}
+.btn-accent:hover{background:#f1c52a;color:var(--ink)}
+.btn-ink{background:var(--ink);color:#fff}
+.btn-ink:hover{background:var(--teal);color:#fff}
+.badge-tag{background:var(--accent);color:var(--ink)}
+.code-card{background:#0a1826;color:#9be7c4;padding:1.5rem;border-radius:.75rem;border-left:6px solid var(--accent);overflow-x:auto}
+.card{border:0}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
